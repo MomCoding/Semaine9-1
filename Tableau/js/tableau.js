@@ -1,7 +1,7 @@
-$liste = document.getElementById("liste");
-$texte = document.getElementById("texte");
-$ajouter = document.getElementById("ajouter");
-$annuler = document.getElementById("annuler");
+$liste = document.querySelector("#liste");
+$texte = document.querySelector("#texte");
+$ajouter = document.querySelector("#ajouter");
+$annuler = document.querySelector("#annuler");
 
 
 tableau = ["Bob", "Julien", "Roger"];

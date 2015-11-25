@@ -1,11 +1,11 @@
-$list = document.getElementById("list");
-$firstname = document.getElementById("firstname");
-$lastname = document.getElementById("lastname");
-$phonenumber = document.getElementById("phonenumber");
-$add = document.getElementById("add");
-$research = document.getElementById("research");
-$search = document.getElementById("search");
-$result = document.getElementById("result");
+$list = document.querySelector("#list");
+$firstname = document.querySelector("#firstname");
+$lastname = document.querySelector("#lastname");
+$phonenumber = document.querySelector("#phonenumber");
+$add = document.querySelector("#add");
+$research = document.querySelector("#research");
+$search = document.querySelector("#search");
+$result = document.querySelector("#result");
 
 contacts = [{
     firstname: "Julien",

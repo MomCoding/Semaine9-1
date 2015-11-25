@@ -1,6 +1,6 @@
-$liste = document.getElementById("liste");
-$suppression = document.getElementById("suppression");
-$restauration = document.getElementById("restauration");
+$liste = document.querySelector("#liste");
+$suppression = document.querySelector("#suppression");
+$restauration = document.querySelector("#restauration");
 
 function select(e) {
 	e.target.classList.toggle("selected");
