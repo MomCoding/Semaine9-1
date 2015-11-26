@@ -9,4 +9,4 @@
 Lien vers la page : __[Annuaire](http://sebastienwozny.com/Simplon/Semaine9/Annuaire)__  
 Lien vers la page : __[Tableau](http://sebastienwozny.com/Simplon/Semaine9/Tableau)__  
 Lien vers la page : __[PlayWithClasses](http://sebastienwozny.com/Simplon/Semaine9/PlayWithClasses)__  
-Lien vers la page : __[PlayWithClasses](http://sebastienwozny.com/Simplon/Semaine9/jQuery)__  
+Lien vers la page : __[jQuery](http://sebastienwozny.com/Simplon/Semaine9/jQuery)__  
