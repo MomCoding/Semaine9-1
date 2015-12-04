@@ -1,21 +1,19 @@
-$liste = document.querySelector("#liste");
-$texte = document.querySelector("#texte");
-$ajouter = document.querySelector("#ajouter");
-$annuler = document.querySelector("#annuler");
-
-
-tableau = ["Bob", "Julien", "Roger"];
+var liste = document.querySelector("#liste");
+var texte = document.querySelector("#texte");
+var btnAjouter = document.querySelector("#btnAjouter");
+var btnAnnuler = document.querySelector("#btnAnnuler");
+var tableau = ["Bob", "Julien", "Roger"];
 
 function afficherListe() {
-    elements = "";
+    var elements = "";
     for (i = 0; i < tableau.length; i++) {
         elements += "<li>" + tableau[i] + "</li>";
     }
-    $liste.innerHTML = elements;
+    liste.innerHTML = elements;
 }
 
 function ajouter() {
-    tableau.push($texte.value);
+    tableau.push(texte.value);
     afficherListe();
 }
 
@@ -24,7 +22,6 @@ function annuler() {
     afficherListe();
 }
 
-
-$ajouter.onclick = ajouter;
-$annuler.onclick = annuler;
+btnAjouter.onclick = ajouter;
+btnAnnuler.onclick = annuler;
 afficherListe();
